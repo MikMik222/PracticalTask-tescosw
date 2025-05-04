@@ -1,0 +1,13 @@
+﻿<Window x:Class="CarSell.Dialog.AddBrandWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:uc="clr-namespace:CarSell.UserControlComponent"
+        Title="Přidat značku" Height="200" Width="300" WindowStartupLocation="CenterScreen">
+    <StackPanel Margin="10">
+        <uc:BrandForm x:Name="BrandFormControl"></uc:BrandForm>
+
+        <Button  Content="Přidat"
+                HorizontalAlignment="Center"  Width="80"
+                Click="BtnAdd_Click"/>
+    </StackPanel>
+</Window>

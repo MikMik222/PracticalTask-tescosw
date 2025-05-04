@@ -1,0 +1,15 @@
+﻿<Window x:Class="CarSell.Dialog.ModelSelect"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarSell.Dialog"
+        mc:Ignorable="d"
+        Title="ModelSelect" Height="159" Width="300">
+    <StackPanel Margin="10">
+        <TextBlock Text="Vyberte typ entity:" />
+        <ComboBox x:Name="comboBoxTypy" />
+        <Button Content="Pokračovat" Margin="0,10,0,0" Click="BtnContinueClick" />
+
+    </StackPanel>
+</Window>

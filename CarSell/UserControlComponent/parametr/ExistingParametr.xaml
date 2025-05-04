@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="CarSell.UserControlComponent.ExistingParametr"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CarSell.UserControlComponent"  >
+
+
+        <GroupBox Grid.Row="3" Header="Aktuální parametry">
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+                <ListView x:Name="ParametryListView">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Název" DisplayMemberBinding="{Binding Nazev}" Width="120"/>
+                            <GridViewColumn Header="Hodnota" DisplayMemberBinding="{Binding Hodnota}" Width="80"/>
+                            <GridViewColumn Header="Jednotka" DisplayMemberBinding="{Binding Jednotka}" Width="80"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </ScrollViewer>
+        </GroupBox>
+
+</UserControl>

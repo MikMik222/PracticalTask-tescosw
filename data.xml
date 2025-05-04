@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VozidlaData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Znacky>
+    <Znacka id="1" nazev="Škoda" />
+  </Znacky>
+  <Modely>
+    <Model id="1" nazev="Oktávia" znackaId="1" />
+    <Model id="2" nazev="Felicia" znackaId="1" />
+    <Model id="3" nazev="Fabia" znackaId="1" />
+    <Model id="4" nazev="Forman" znackaId="1" />
+    <Model id="5" nazev="Favorit" znackaId="1" />
+  </Modely>
+  <Parametry>
+    <Verze id="1" modelId="1" typ="1.9 TDI">
+      <Parametr id="1" nazev="Výkon" hodnota="81" jednotka="kW" />
+      <Parametr id="2" nazev="Karoserie" hodnota="sedan" />
+    </Verze>
+    <Verze id="2" modelId="1" typ="2.0 TSI">
+      <Parametr id="1" nazev="Výkon" hodnota="140" jednotka="kW" />
+      <Parametr id="2" nazev="Karoserie" hodnota="liftback" />
+    </Verze>
+    <Verze id="3" modelId="2" typ="1.3">
+      <Parametr id="1" nazev="Výkon" hodnota="55" jednotka="kW" />
+      <Parametr id="2" nazev="Karoserie" hodnota="hatchback" />
+    </Verze>
+    <Verze id="4" modelId="2" typ="1.6 MPI">
+      <Parametr id="1" nazev="Výkon" hodnota="55" jednotka="kW" />
+      <Parametr id="2" nazev="Karoserie" hodnota="kombi" />
+    </Verze>
+    <Verze id="5" modelId="3" typ="1.4 TDI">
+      <Parametr id="1" nazev="Výkon" hodnota="59" jednotka="kW" />
+      <Parametr id="2" nazev="Karoserie" hodnota="hatchback" />
+    </Verze>
+    <Verze id="6" modelId="4" typ="1.3 B">
+      <Parametr id="1" nazev="Výkon" hodnota="43" jednotka="kW" />
+      <Parametr id="2" nazev="Karoserie" hodnota="kombi" />
+    </Verze>
+    <Verze id="7" modelId="5" typ="1.3 LX">
+      <Parametr id="1" nazev="Výkon" hodnota="40" jednotka="kW" />
+      <Parametr id="2" nazev="Karoserie" hodnota="hatchback" />
+    </Verze>
+  </Parametry>
+  <DPH>
+    <Sazba id="1" sazba="20" />
+    <Sazba id="2" sazba="19" />
+  </DPH>
+  <Prodejci>
+    <Prodejce id="1" nazev="Autocentrum ABC" sidlo="Praha, Černokostelecká 123" kontakt="tel:123456789" />
+    <Prodejce id="2" nazev="Autosalon XYZ" sidlo="Brno, Křížkovského 45" kontakt="tel:987654321" />
+  </Prodejci>
+  <Zamestnanci>
+    <Zamestnanec id="1" prodejceId="1" jmeno="Jan" prijmeni="Novák" />
+    <Zamestnanec id="2" prodejceId="1" jmeno="Eva" prijmeni="Svobodová" />
+    <Zamestnanec id="3" prodejceId="2" jmeno="Petr" prijmeni="Horák" />
+  </Zamestnanci>
+  <Kupujici>
+    <Kupujici id="1" jmeno="Petr" prijmeni="Novák" adresa="Praha, Vinohrady 1" telefon="602345678" />
+    <Kupujici id="2" jmeno="Anna" prijmeni="Dvořáková" adresa="Brno, Špitálka 3" telefon="605678910" />
+  </Kupujici>
+  <Prodeje>
+    <Prodej id="1" verzeId="1" datum="2010-12-02T00:00:00" cena="500000" dphId="1" prodejceZamestnanecId="1" kupujiciId="1" />
+    <Prodej id="2" verzeId="2" datum="2000-12-03T00:00:00" cena="210000" dphId="1" prodejceZamestnanecId="2" kupujiciId="2" />
+    <Prodej id="3" verzeId="3" datum="2010-12-04T00:00:00" cena="350000" dphId="1" prodejceZamestnanecId="1" kupujiciId="2" />
+    <Prodej id="4" verzeId="1" datum="2010-12-04T00:00:00" cena="500000" dphId="1" prodejceZamestnanecId="2" kupujiciId="1" />
+    <Prodej id="5" verzeId="1" datum="2010-12-05T00:00:00" cena="500000" dphId="1" prodejceZamestnanecId="1" kupujiciId="2" />
+    <Prodej id="6" verzeId="3" datum="2010-12-05T00:00:00" cena="350000" dphId="1" prodejceZamestnanecId="2" kupujiciId="1" />
+    <Prodej id="7" verzeId="3" datum="2010-12-06T00:00:00" cena="350000" dphId="1" prodejceZamestnanecId="1" kupujiciId="2" />
+    <Prodej id="8" verzeId="4" datum="2000-12-04T00:00:00" cena="100000" dphId="2" prodejceZamestnanecId="2" kupujiciId="1" />
+    <Prodej id="9" verzeId="5" datum="2000-12-05T00:00:00" cena="80000" dphId="2" prodejceZamestnanecId="1" kupujiciId="2" />
+    <Prodej id="10" verzeId="4" datum="2000-12-06T00:00:00" cena="100000" dphId="2" prodejceZamestnanecId="1" kupujiciId="1" />
+    <Prodej id="11" verzeId="2" datum="2000-12-03T00:00:00" cena="210000" dphId="2" prodejceZamestnanecId="2" kupujiciId="2" />
+    <Prodej id="12" verzeId="2" datum="2000-12-02T00:00:00" cena="210000" dphId="2" prodejceZamestnanecId="2" kupujiciId="1" />
+    <Prodej id="13" verzeId="1" datum="2010-12-07T00:00:00" cena="500000" dphId="1" prodejceZamestnanecId="1" kupujiciId="2" />
+  </Prodeje>
+</VozidlaData>

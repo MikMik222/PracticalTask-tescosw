@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="CarSell.UserControlComponent.BrandForm"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CarSell.UserControlComponent">
+
+    <StackPanel Margin="10">
+        <TextBlock Text="Název:" Margin="10" />
+        <TextBox x:Name="NameTextBox"  Margin="10"/>
+    </StackPanel>
+</UserControl>

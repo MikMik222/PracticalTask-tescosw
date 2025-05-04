@@ -1,0 +1,17 @@
+﻿<Window x:Class="CarSell.Dialog.AddSalesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:uc="clr-namespace:CarSell.UserControlComponent"
+        Title="Přidat prodej" Height="372" Width="300" WindowStartupLocation="CenterScreen">
+    <StackPanel Margin="10">
+        <StackPanel>
+            <uc:SalesForm x:Name="SalesFormControler"></uc:SalesForm>
+            <Button  Content="Vybrat kupujícího" Margin="10"
+                HorizontalAlignment="Center"  Width="auto"
+                Click="BtnSelect_Click" />            
+            <Button  Content="Přidat"
+                HorizontalAlignment="Center"  Width="auto"
+                Click="BtnAdd_Click"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
