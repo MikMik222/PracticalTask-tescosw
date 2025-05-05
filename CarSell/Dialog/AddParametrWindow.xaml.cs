@@ -51,7 +51,7 @@ namespace CarSell.Dialog
             }
 
             ParametrFormControl.AutoInfoTextBlock.Text = $"Přidání parametru pro: {znacka.Name} {model.Name} {_verze.Type}";
-
+            if (_verze.Parametrs == null) _verze.Parametrs = new List<Parametr>();
             ExistingParametrControl.ParametryListView.ItemsSource = _verze.Parametrs;
         }
 
